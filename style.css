@@ -1,0 +1,70 @@
+body {
+    background-color: yellow;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.curved-button {
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+.curved-button2 {
+    background-color: black;
+    color: yellow;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+.container {
+    background-color: black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    color: yellow;
+}
+
+.container button {
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+.container button:hover {
+    background-color: black;
+    color: yellow;
+}
+
+/* Style for the login input bars */
+.container input[type="text"],
+.container input[type="password"] {
+    border: none;
+    border-radius: 20px; /* Create an oval shape */
+    padding: 12px 20px; /* Adjust padding for size */
+    margin: 5px;
+    font-size: 18px; /* Adjust font size for text input bars */
+}
+
+/* Add a hover effect for the input bars */
+.container input[type="text"]:hover,
+.container input[type="password"]:hover {
+    background-color: yellow;
+    color: black;
+}
